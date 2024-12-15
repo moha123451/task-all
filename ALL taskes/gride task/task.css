@@ -1,0 +1,35 @@
+.parent{
+    padding: 10px;
+    height: 500px;
+    display:grid;
+    gap: 10px;
+grid-template-areas: 
+"Header Header Header "
+" nav  nav main"
+" nav  nav main"
+" footer footer footer"
+
+
+}
+
+
+.Header{
+    grid-area: Header; 
+    background-color: black;
+}
+
+.nav{
+    grid-area: nav;
+ background-color: blue;
+
+}
+.main{
+    grid-area: main ;
+  background-color: orange;
+}
+
+.footer{
+    grid-area:footer; 
+    background-color: brown;
+
+}

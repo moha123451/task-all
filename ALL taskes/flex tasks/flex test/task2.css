@@ -1,0 +1,69 @@
+.parent{
+    display: flex; 
+    background-color: yellow;  
+    /* height: 100px;  */
+    padding: 10px; 
+    /* margin: 10px;   */
+    flex-direction: row; 
+     flex-wrap: wrap;  
+     width: 100%; 
+     height: 700px; 
+     
+
+    /* height: 100px; */
+    /* flex-direction: column;  */
+    /* display: inline-flex;    */
+
+}  
+.parent div{
+   padding: 10px; 
+   margin: 20px; 
+   width: 400px; 
+}
+
+
+.item1{
+    background-color: aqua; 
+
+} 
+.item2{
+    background-color: aqua; 
+
+} 
+ 
+.item3{
+    background-color: yellowgreen; 
+
+} 
+.item4{
+    background-color: blue; 
+
+} 
+.item5{
+    background-color: blueviolet; 
+
+} 
+.item6{
+    background-color:brown; 
+
+}  
+.item7{
+    background-color:chocolate; 
+
+}  
+.item8{
+    background-color: bisque; 
+
+} 
+.item9{
+    background-color:cornflowerblue
+    
+
+}  
+.item10{
+    background-color: aqua; 
+
+} 
+
+
+

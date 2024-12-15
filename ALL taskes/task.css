@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background-color: rgb(0, 11, 83);
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+span {
+  color: rgb(255, 108, 59);
+}
+.sidebar{
+    padding: 2rem; /*1em=16px em===rem*/
+    background-color: rgb(41, 45, 114);
+    height: 100%;
+    width: 20%;
+}
+ol li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0.75rem 0;
+    text-transform: capitalize;
+}
+ol li:hover{
+    background-color: rgb(3, 29, 87);
+}
+.leftSide{
+    padding: 1.5rem;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.dashboard{
+display: flex;
+gap: 1rem;
+}
+.dashboard i{
+    font-size: 20px;
+}
+.dashboard p{
+    font-size: 20px;
+}
+.user{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+small{
+    font-size: 10px;
+    opacity: 75%;
+}
+.user i{
+    font-size: 20px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    background-color: rgb(123, 123, 123);
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.left{
+    font-size: 30px;
+    margin: auto 0.5rem;
+}
+h5{
+    opacity: 75%;
+    font-weight: lighter;
+}
+.top h4{
+    color: rgb(234, 155, 9); 
+}
+.top button{
+    color: rgb(234, 155, 9);
+    padding: 2px 20px;
+}
+.top{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.sales{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 5rem;
+    background-color: rgb(67, 67, 67);
+    padding: 12px;
+}
+.topSelling{
+    width: 60%;
+}
+table{
+    width: 100%;
+}
+th, td{
+    border-bottom: 1px solid gray;
+    padding: 0.75rem;
+    text-align: start;
+}
+img{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-self: center;
+}
+ol li i{
+    padding-right: 3px;
+}

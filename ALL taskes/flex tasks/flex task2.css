@@ -1,0 +1,50 @@
+.parent2{ 
+    /* display: flex ;  */
+    justify-content: flex-start;  
+    /* flex-flow: wrap ,row; */
+    /* flex-direction: row; */
+    background-color: red; 
+    border-color: yellow; 
+    display: inline-flex;    
+    margin: 10px; 
+    padding: 10px; 
+    /* width: 100px */
+    /* display: inline-flex;  */
+    /* justify-content: space-evenly;  
+    flex-flow: wrap ,row; */
+    /* height: 100px; */
+      /* width: 50px; */
+} 
+.parent2 div{
+    /* width: 200px  */
+    padding: 10px; 
+    margin: 10px; 
+        flex-flow: wrap ,row;
+
+} 
+.parent3{
+    /* display: flex;  */
+    /* display: inline-flex;   */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+} 
+ .div1{
+    background-color: bisque; 
+    width: 50px; 
+ }  
+ .div2{
+    background-color:yellow; 
+    width: 50px;
+ } 
+ .div3{
+    background-color:blue; 
+    width: 50px;
+ } 
+ .div4{
+    background-color:yellow; 
+    width: 50px;
+ } 
+ .div5{
+    background-color:blueviolet; 
+    width: 50px;
+ }

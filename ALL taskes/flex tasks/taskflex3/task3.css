@@ -1,0 +1,35 @@
+.parent{ 
+    display: flex; 
+    /* width: 50%;  */
+    background-color: brown; 
+    height: 700px;  
+    
+    
+
+}   
+.parent div{ 
+    justify-items: center;
+}
+.div1{
+    background-color: blueviolet; 
+    width: 800px; 
+    text-align: center; 
+    padding-top: 300px;  
+    font-size: x-large; 
+    font-weight: bolder; 
+    font-weight: 900; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+} 
+.div2{
+    background-color: blue; 
+    width: 800px; 
+    text-align: center; 
+    padding-top: 300px;  
+    font-size: x-large; 
+    font-weight: bolder; 
+    font-weight: 900; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+} 
